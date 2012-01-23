@@ -46,7 +46,7 @@ public class TrackerService {
 		*/
 		dbAdapter.insert(location);
 		
-		SimpleDateFormat sdf = new SimpleDateFormat("hh:MM:ss");
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
 		
 		TextView headerText = (TextView) activity.findViewById(R.id.header);
 		TextView lastLocation = (TextView) activity.findViewById(R.id.lastLocation);

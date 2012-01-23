@@ -42,7 +42,7 @@ public class HistoryActivity extends Activity {
     }
 
 	private void setupViewMoreButtonListener(final TrackerService service) {
-    	final Button history = (Button) findViewById(R.id.historyButton);
+    	final Button history = (Button) findViewById(R.id.viewMore);
     	
     	history.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
